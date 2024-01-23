@@ -1,0 +1,241 @@
+[
+	{
+		"id": 1,
+		"title": "University Management",
+		"features": [
+			{
+				"name": "Proper Authentication With Firebase and Custom database",
+				"info": "Authentiaction for users using a fustion of Firebase and custom databae using Mongo DB. Secured by JWT",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687107159/potfolio/Projects/section%20n/Picsart_23-06-18_19-03-41-650_gsetdi.jpg",
+				"link": "https://section-n-diu.web.app/register"
+			},
+			{
+				"name": "Personalized Updatable Profile",
+				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687089556/potfolio/Projects/section%20n/profile_edit_zs7scy.jpg",
+				"link": "https://section-n-diu.web.app/settings"
+			},
+			{
+				"name": "Switch between light and Dark mode",
+				"info": "Full systemwide dark mode and easy swiching enabled.",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687107160/potfolio/Projects/section%20n/Picsart_23-06-18_19-11-06-650_y44vm2.jpg",
+				"link": "https://assignment-12-cameraverse.web.app/home"
+			},
+			{
+				"name": "Manage course materials easily and upload on the go",
+				"info": "See all course details with categorized semester",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687090487/potfolio/Projects/section%20n/Screenshot_2023-06-18_181416_jxozzy.jpg",
+				"link": "https://section-n-diu.web.app/slides"
+			},
+			{
+				"name": "Manage evets",
+				"info": "Dynamic event management system that shows in the homepage",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687089555/potfolio/Projects/section%20n/events_arytse.jpg",
+				"link": "https://assignment-12-cameraverse.web.app/home"
+			}
+		],
+		"technology": [
+			{
+				"name": "ReactJs",
+				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
+			},
+			{
+				"name": "Tailwind",
+				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
+			},
+			{
+				"name": "Firebase",
+				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+			},
+			{
+				"name": "MongoDB",
+				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
+			},
+			{
+				"name": "Google Drive Storage",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687091247/potfolio/Google_Drive_logo_iudbsi.png"
+			}
+		],
+		"image": "https://res.cloudinary.com/ssani7/image/upload/v1687107160/potfolio/Projects/section%20n/Picsart_23-06-18_19-21-08-881_zcrjko.jpg",
+		"live": "https://section-n-diu.web.app/",
+		"client": "https://github.com/ssani7/section-n",
+		"server": "https://github.com/ssani7/section-n-server"
+	},
+	{
+		"id": 1,
+		"title": "Bicycleverse",
+		"features": [
+			{
+				"name": "Proper Authentication With Complete Security",
+				"info": "Authentiaction for users using a fustion of Firebase and custom databae using Mongo DB. Secured by JSON Web Token",
+				"image": "https://i.ibb.co/99XFYQp/4th.png",
+				"link": "https://assignment-12-cameraverse.web.app/login"
+			},
+			{
+				"name": "Personalized Updatable Profile",
+				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
+				"image": "https://i.ibb.co/pZB2KxT/3rd.png",
+				"link": "https://assignment-12-cameraverse.web.app/dashboard"
+			},
+			{
+				"name": "Catergorized Products",
+				"info": "Properly categorized list of products. Also have proper pagination for full product list and fully responsive design all over",
+				"image": "https://i.ibb.co/0J3GpDk/2nd.png",
+				"link": "https://assignment-12-cameraverse.web.app/home"
+			}
+		],
+		"technology": [
+			{
+				"name": "ReactJs",
+				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
+			},
+			{
+				"name": "Tailwind",
+				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
+			},
+			{
+				"name": "Firebase",
+				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+			},
+			{
+				"name": "MongoDB",
+				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
+			}
+		],
+		"image": "https://i.ibb.co/0J3GpDk/2nd.png",
+		"live": "https://assignment-12-cameraverse.web.app/",
+		"client": "",
+		"server": ""
+	},
+	{
+		"id": 2,
+		"title": "Tech Review Website",
+		"features": [
+			{
+				"name": "Proper Authentication With Complete Security",
+				"info": "Authentiaction for users using a fustion of Firebase and custom databae using Mongo DB. Secured by JSON Web Token",
+				"image": "https://i.ibb.co/99XFYQp/4th.png",
+				"link": "https://assignment-12-cameraverse.web.app/login"
+			},
+			{
+				"name": "Personalized Updatable Profile",
+				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
+				"image": "https://i.ibb.co/pZB2KxT/3rd.png",
+				"link": "https://assignment-12-cameraverse.web.app/dashboard"
+			},
+			{
+				"name": "Catergorized Products",
+				"info": "Properly categorized list of products. Also have proper pagination for full product list and fully responsive design all over",
+				"image": "https://i.ibb.co/4N1SHKF/Screenshot-2022-06-11-135612.png",
+				"link": "https://assignment-12-cameraverse.web.app/home"
+			}
+		],
+		"technology": [
+			{
+				"name": "ReactJs",
+				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
+			},
+			{
+				"name": "Tailwind",
+				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
+			}
+		],
+		"image": "https://i.ibb.co/dL5fT8n/review.png",
+		"live": "https://assignment9bysani.netlify.app/home",
+		"client": "",
+		"server": ""
+	},
+	{
+		"id": 3,
+		"title": "Wedding Planners Website",
+		"features": [
+			{
+				"name": "Proper Authentication With Complete Security",
+				"info": "Authentiaction for users using a fustion of Firebase and custom databae using Mongo DB. Secured by JSON Web Token",
+				"image": "https://i.ibb.co/99XFYQp/4th.png",
+				"link": "https://assignment-12-cameraverse.web.app/login"
+			},
+			{
+				"name": "Personalized Updatable Profile",
+				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
+				"image": "https://i.ibb.co/pZB2KxT/3rd.png",
+				"link": "https://assignment-12-cameraverse.web.app/dashboard"
+			},
+			{
+				"name": "Catergorized Products",
+				"info": "Properly categorized list of products. Also have proper pagination for full product list and fully responsive design all over",
+				"image": "https://i.ibb.co/4N1SHKF/Screenshot-2022-06-11-135612.png",
+				"link": "https://assignment-12-cameraverse.web.app/home"
+			}
+		],
+		"technology": [
+			{
+				"name": "HTML",
+				"image": "https://i.ibb.co/6WwLYX3/html.png"
+			},
+			{
+				"name": "CSS",
+				"image": "https://i.ibb.co/X2Vm2nr/css.png"
+			},
+			{
+				"name": "JavaScript",
+				"image": "https://i.ibb.co/549BGV8/javascript.png"
+			},
+			{
+				"name": "Bootstrap",
+				"image": "https://i.ibb.co/t3kdbwD/bootstrap-logo.png"
+			}
+		],
+		"image": "https://i.ibb.co/Wx5yP8y/wedding-1-1.png",
+		"live": "https://zealous-nobel-72493e.netlify.app/",
+		"client": "",
+		"server": ""
+	},
+
+	{
+		"id": 4,
+		"title": "Tech Inventory",
+		"features": [
+			{
+				"name": "Proper Authentication With Complete Security",
+				"info": "Authentiaction for users using a fustion of Firebase and custom databae using Mongo DB. Secured by JSON Web Token",
+				"image": "https://i.ibb.co/99XFYQp/4th.png",
+				"link": "https://assignment-12-cameraverse.web.app/login"
+			},
+			{
+				"name": "Personalized Updatable Profile",
+				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
+				"image": "https://i.ibb.co/pZB2KxT/3rd.png",
+				"link": "https://assignment-12-cameraverse.web.app/dashboard"
+			},
+			{
+				"name": "Catergorized Products",
+				"info": "Properly categorized list of products. Also have proper pagination for full product list and fully responsive design all over",
+				"image": "https://i.ibb.co/4N1SHKF/Screenshot-2022-06-11-135612.png",
+				"link": "https://assignment-12-cameraverse.web.app/home"
+			}
+		],
+		"technology": [
+			{
+				"name": "ReactJs",
+				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
+			},
+			{
+				"name": "Bootstrap",
+				"image": "https://i.ibb.co/t3kdbwD/bootstrap-logo.png"
+			},
+			{
+				"name": "Firebase",
+				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+			},
+			{
+				"name": "MongoDB",
+				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
+			}
+		],
+		"image": "https://i.ibb.co/SdHLMh4/ass-1.png",
+		"live": "https://assignment11-gpu-incentory.web.app/",
+		"client": "",
+		"server": ""
+	}
+]
