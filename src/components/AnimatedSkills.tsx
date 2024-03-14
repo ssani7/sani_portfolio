@@ -5,8 +5,8 @@ import '../styles/Animation.css';
 
 const AnimatedSkills = () => {
 	return (
-		<div className="pb-32 w-full overflow-hidden">
-			<h1 className="my-20 text-center font-bold text-3xl">Skills</h1>
+		<div className="pb-32 w-full overflow-hidden snap-center">
+			<h1 className="mt-8 mb-28 text-center font-bold text-3xl">Skills</h1>
 			<div className="relative" style={{ height: '500px' }}>
 				<div className="main">
 					<div className="">

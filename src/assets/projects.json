@@ -1,5 +1,51 @@
 [
 	{
+		"id": 0,
+		"title": "ShoeStocks",
+		"features": [
+			{
+				"name": "A minimalistic shopping UI",
+				"info": "Minimal UI with featured products, categories and banner that built using Material UI",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1709903429/potfolio/Projects/shoestocks/features/tqrzyjfqldt1xs3qvkuu.jpg",
+				"link": ""
+			},
+			{
+				"name": "Personalized Updatable Products",
+				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1709903428/potfolio/Projects/shoestocks/features/xvjdzkpery4muvgg7gdk.jpg",
+				"link": ""
+			},
+			{
+				"name": "Catergorized Products",
+				"info": "Properly categorized list of products. Also have proper pagination for full product list and fully responsive design all over",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1709903428/potfolio/Projects/shoestocks/features/bc48ougsthfdch3si6zh.jpg",
+				"link": ""
+			}
+		],
+		"technology": [
+			{
+				"name": "ReactJs",
+				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
+			},
+			{
+				"name": "Tailwind",
+				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
+			},
+			{
+				"name": "Material UI",
+				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+			},
+			{
+				"name": "MongoDB",
+				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
+			}
+		],
+		"image": "https://res.cloudinary.com/ssani7/image/upload/v1709807943/potfolio/Projects/shoestocks/tpoyn2r9xabe5kqzdchx.jpg",
+		"live": "https://assignment-12-cameraverse.web.app/",
+		"client": "",
+		"server": ""
+	},
+	{
 		"id": 1,
 		"title": "University Management",
 		"features": [
@@ -60,52 +106,6 @@
 		"live": "https://section-n-diu.web.app/",
 		"client": "https://github.com/ssani7/section-n",
 		"server": "https://github.com/ssani7/section-n-server"
-	},
-	{
-		"id": 1,
-		"title": "Bicycleverse",
-		"features": [
-			{
-				"name": "Proper Authentication With Complete Security",
-				"info": "Authentiaction for users using a fustion of Firebase and custom databae using Mongo DB. Secured by JSON Web Token",
-				"image": "https://i.ibb.co/99XFYQp/4th.png",
-				"link": "https://assignment-12-cameraverse.web.app/login"
-			},
-			{
-				"name": "Personalized Updatable Profile",
-				"info": "Create and update your own profile in the dashboard. Can be updated including profile photo, email address, passwords and social profile links",
-				"image": "https://i.ibb.co/pZB2KxT/3rd.png",
-				"link": "https://assignment-12-cameraverse.web.app/dashboard"
-			},
-			{
-				"name": "Catergorized Products",
-				"info": "Properly categorized list of products. Also have proper pagination for full product list and fully responsive design all over",
-				"image": "https://i.ibb.co/0J3GpDk/2nd.png",
-				"link": "https://assignment-12-cameraverse.web.app/home"
-			}
-		],
-		"technology": [
-			{
-				"name": "ReactJs",
-				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
-			},
-			{
-				"name": "Tailwind",
-				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
-			},
-			{
-				"name": "Firebase",
-				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
-			},
-			{
-				"name": "MongoDB",
-				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
-			}
-		],
-		"image": "https://i.ibb.co/0J3GpDk/2nd.png",
-		"live": "https://assignment-12-cameraverse.web.app/",
-		"client": "",
-		"server": ""
 	},
 	{
 		"id": 2,

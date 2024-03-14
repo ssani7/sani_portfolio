@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -9,14 +11,30 @@ body,
 	min-height: 100vh;
 }
 
+/* html {
+	scroll-snap-type: y mandatory;
+} */
+
 .navBg {
 	--tw-bg-opacity: 1;
-	background: linear-gradient(to left, transparent 50%, hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity)) 50%) right;
+	/* background: linear-gradient(to left, transparent 50%, hsl(var(--b3, var(--b2)) / var(--tw-bg-opacity)) 50%) right; */
+	background: linear-gradient(to left, transparent 50%, var(--fallback-b2, oklch(var(--b2) / var(--tw-bg-opacity))) 50%) right;
 	background-size: 200%;
 	transition: 0.5s ease-out;
 }
 .navBg.active {
 	background-position: left;
+}
+
+.satisfy-regular {
+	font-family: 'Satisfy', cursive;
+	font-weight: 400;
+	font-style: normal;
+}
+
+.label-text {
+	font-size: 16px;
+	font-weight: 600;
 }
 
 input:-webkit-autofill,

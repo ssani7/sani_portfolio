@@ -1,10 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
-import AnimatedSkills from './components/AnimatedSkills';
-import Banner from './components/Banner';
-import Contact from './components/Contact';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Slide from './components/Slides';
+import Navbar from './components/Header';
+import { Outlet } from 'react-router-dom';
 
 function App() {
 	const titleRef = useRef();
@@ -40,14 +36,8 @@ function App() {
 
 	return (
 		<div id="App" data-theme={nightMode ? 'darkMode' : 'mytheme'}>
-			<Header reference={titleRef2} click={() => handleBackClick(titleRef)} nightMode={nightMode} setNightMode={checked} />
-			<div className="">
-				<Slide />
-				<AnimatedSkills />
-				<Banner />
-				<Contact />
-				<Footer />
-			</div>
+			<Navbar reference={titleRef2} click={() => handleBackClick(titleRef)} nightMode={nightMode} setNightMode={checked} />
+			<Outlet />
 		</div>
 	);
 }

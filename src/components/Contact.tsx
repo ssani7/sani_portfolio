@@ -1,4 +1,7 @@
 import emailjs from '@emailjs/browser';
+import { faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faAt, faLocationDot } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { useState } from 'react';
 import { FieldValues, useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
@@ -41,39 +44,72 @@ const Contact = () => {
 		}
 	};
 
+	const socials = [
+		{
+			title: 'sanaullah.sani756@gmail.com',
+			icon: faAt,
+			link: '#',
+		},
+		{
+			title: 'sanaullah756',
+			icon: faLinkedin,
+			link: 'https://www.linkedin.com/in/sanaullah756',
+		},
+		{
+			title: '@sanaullahsani07',
+			icon: faTwitter,
+			link: 'https://twitter.com/sanaullahsani07',
+		},
+		{
+			title: 'Dhaka, Bangladesh',
+			icon: faLocationDot,
+			link: '#',
+		},
+	];
+
 	return (
-		<>
-			<h2 className="card-title text-3xl lg:text-4xl font-bold justify-center mb-6 mt-16">Send Me an Email</h2>
-			<div className="w-full flex justify-center items-center mt-10 mb-36">
-				<div className="card w-full md:w-3/5 lg:w-3/5 shadow-xl bg-base-200">
-					<div className="card-body px-20">
-						<form onSubmit={handleSubmit(onSubmit)}>
-							<div className="form-control w-full mb-5">
-								<label className="label">
-									<span className="label-text">Your Name</span>
-								</label>
-								<input type="text" placeholder="e.g. John Doe" className="input input-bordered w-full text-base-content" {...register('from_name', { required: 'Your name is required' })} />
-								{errors.from_name && <span className="text-xs text-error text-center">{errors.from_name?.message as string}</span>}
+		<div className="snap-center">
+			<h2 className="card-title text-3xl lg:text-4xl font-bold justify-center mb-4 mt-16">Send Me an Email</h2>
+			<div className="w-full flex flex-col-reverse xl:flex-row justify-center mb-36">
+				<div className="my-5 flex flex-col justify-evenly gap-4 px-8">
+					{socials.map((social, i) => (
+						<a key={i} target="_blank" href={social.link} className="flex items-center gap-4">
+							<FontAwesomeIcon className="h-7 my-3 xl:hover:text-primary xl:hover:scale-125 transition-all" icon={social.icon} />
+							<p>{social.title}</p>
+						</a>
+					))}
+				</div>
+				<div className="card w-full md:w-3/5 lg:w-3/5">
+					<div className="card-body xl:px-20">
+						<form className="flex flex-col gap-5" onSubmit={handleSubmit(onSubmit)}>
+							<div className="flex flex-col xl:flex-row items-center gap-5">
+								<div className="form-control w-full">
+									<label className="label">
+										<span className="label-text">Your Name</span>
+									</label>
+									<input type="text" className="input input-bordered shadow-md w-full text-base-content py-7 px-5" {...register('from_name', { required: 'Your name is required' })} />
+									{errors.from_name && <span className="text-xs text-error text-center">{errors.from_name?.message as string}</span>}
+								</div>
+								<div className="form-control w-full">
+									<label className="label">
+										<span className="label-text">Your Email Adress</span>
+									</label>
+									<input type="email" className="input input-bordered shadow-md w-full text-base-content py-7 px-5" {...register('from_email', { required: 'Your email is required' })} />
+									{errors.from_name && <span className="text-xs text-error text-center">{errors.from_name?.message as string}</span>}
+								</div>
 							</div>
-							<div className="form-control w-full mb-5">
-								<label className="label">
-									<span className="label-text">Your Email Adress</span>
-								</label>
-								<input type="email" placeholder="yourname@email.com" className="input input-bordered w-full text-base-content" {...register('from_email', { required: 'Your email is required' })} />
-								{errors.from_name && <span className="text-xs text-error text-center">{errors.from_name?.message as string}</span>}
-							</div>
-							<div className="form-control w-full mb-5">
+							<div className="form-control w-full">
 								<label className="label">
 									<span className="label-text">Subject</span>
 								</label>
-								<input type="text" placeholder="e.g. Hiring for an amazing project" className="input input-bordered w-full" {...register('subject', { required: 'Subject is required' })} />
+								<input type="text" className="input input-bordered shadow-md w-full py-7 px-5" {...register('subject', { required: 'Subject is required' })} />
 								{errors.subject && <span className="text-xs text-error text-center">{errors.subject.message as string}</span>}
 							</div>
-							<div className="form-control mb-5">
+							<div className="form-control">
 								<label className="label">
 									<span className="label-text">Your Message</span>
 								</label>
-								<textarea className="textarea textarea-bordered h-40" {...register('message', { required: 'Please enter your message for the developer' })}></textarea>
+								<textarea className="textarea textarea-bordered shadow-md h-40" {...register('message', { required: 'Please enter your message for the developer' })}></textarea>
 								{errors.message && <span className="text-xs text-error text-center">{errors.message.message as string}</span>}
 							</div>
 
@@ -88,7 +124,7 @@ const Contact = () => {
 
 				<ToastContainer />
 			</div>
-		</>
+		</div>
 	);
 };
 

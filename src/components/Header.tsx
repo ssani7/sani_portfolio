@@ -1,10 +1,9 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Header = ({ reference, click, nightMode, setNightMode }: any) => {
+const Navbar = ({ reference, click, nightMode, setNightMode }: any) => {
 	const [dropdown, setDropdown] = useState(false);
 	const [changeBg, setChangeBg] = useState(false);
-	console.log('🚀 ~ Header ~ changeBg:', changeBg);
 
 	const navItems = (
 		<li onClick={() => setDropdown(false)}>
@@ -38,7 +37,7 @@ const Header = ({ reference, click, nightMode, setNightMode }: any) => {
 
 	return (
 		<div ref={reference} className={`navbar min-h-0 p-0 flex-col items-start lg:flex-row lg:items-center z-20 fixed text-content top-0`}>
-			<div className={`navbar-start w-full h-full p-2 lg:px-5 lg:py-4 z-50 relative flex justify-between ${dropdown || changeBg ? 'navBg bg-base-300' : 'navBg text-white'}`}>
+			<div className={`navbar-start w-full h-full p-2 lg:px-5 lg:py-4 z-50 relative flex justify-between ${dropdown || changeBg ? 'navBg active' : 'navBg text-base-content'}`}>
 				<div className="flex items-center">
 					<div>
 						<label tabIndex={0} className="lg:hidden mr-auto">
@@ -57,7 +56,7 @@ const Header = ({ reference, click, nightMode, setNightMode }: any) => {
 					</div>
 
 					<Link to="/" className="md:text-2xl font-bold ml-3">
-						Sanaullah's Portfolio
+						Sani
 					</Link>
 				</div>
 
@@ -90,4 +89,4 @@ const Header = ({ reference, click, nightMode, setNightMode }: any) => {
 	);
 };
 
-export default Header;
+export default Navbar;

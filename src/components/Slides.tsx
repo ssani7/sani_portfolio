@@ -38,6 +38,7 @@ const Slide = () => {
 	return (
 		<>
 			<motion.div
+				className="snap-center"
 				initial="hidden"
 				animate="animate"
 				variants={{
