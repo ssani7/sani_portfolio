@@ -57,7 +57,7 @@ export const skills = [
 		{
 			name: 'PostgreSQL',
 			image: 'https://res.cloudinary.com/ssani7/image/upload/v1687033522/potfolio/Postgresql_elephant.svg_x7jy3o.png',
-			desc: 'PostgreSQL is a powerful open-source relational database management system (RDBMS). It supports advanced features like window functions, common table expressions, and full-text search. PostgreSQL is known for its robustness, extensibility, and ACID compliance',
+			desc: 'PostgreSQL is a powerful open-source relational database management system (RDBMS). It supports advanced features like window functions, common table expressions, and full-text search.',
 		},
 	],
 	[

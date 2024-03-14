@@ -14,26 +14,12 @@ const AnimatedSkills = () => {
 
 			<div className="relative">
 				<motion.div initial={{ x: '-100%' }} animate={focus && { x: 18 }} className="absolute left-0 top-0 bottom-0 flex flex-col justify-center items-center z-10 w-80">
-					<div className="stack">
-						<div className="card h-full shadow-md bg-base-200 text-black">
-							<div className="card-body">
-								<h2 className="card-title">{focus?.name}</h2>
-								<p>{focus?.desc}</p>
-							</div>
+					<motion.div className="card h-fit shadow-md bg-base-200 text-black">
+						<div className="card-body">
+							<h2 className="card-title">{focus?.name}</h2>
+							<p>{focus?.desc}</p>
 						</div>
-						<div className="card h-full shadow bg-base-300 text-black">
-							<div className="card-body">
-								<h2 className="card-title">Notification 2</h2>
-								<p>You have 3 unread messages. Tap here to see.</p>
-							</div>
-						</div>
-						<div className="card h-full shadow-sm bg-accent text-black">
-							<div className="card-body">
-								<h2 className="card-title">Notification 3</h2>
-								<p>You have 3 unread messages. Tap here to see.</p>
-							</div>
-						</div>
-					</div>
+					</motion.div>
 				</motion.div>
 
 				<div className="relative" style={{ height: '500px' }}>
