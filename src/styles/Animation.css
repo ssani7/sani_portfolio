@@ -28,6 +28,24 @@
     animation: circle 15s linear infinite;
   } */
 
+.item {
+	position: absolute;
+	margin: auto;
+	inset: 0;
+	height: 4rem;
+	width: 4rem;
+}
+
+.circle0 {
+	z-index: 10;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 50%;
+	padding: 10px;
+	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+}
+
 .circle1 {
 	z-index: 10;
 	display: flex;
@@ -36,7 +54,7 @@
 	border-radius: 50%;
 	padding: 10px;
 	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-	animation: circle 14s linear infinite;
+	animation: circle 12s linear infinite;
 }
 
 .circle2 {
@@ -46,7 +64,7 @@
 	border-radius: 50%;
 	padding: 10px;
 	box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
-	animation: circle2 16s linear infinite;
+	animation: circle2 24s linear infinite;
 }
 
 .circle3 {
