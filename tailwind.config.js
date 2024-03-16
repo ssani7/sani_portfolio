@@ -8,18 +8,20 @@ export default {
 		themes: [
 			{
 				mytheme: {
-					primary: '#641ae6',
+					primary: '#29a587',
 					secondary: '#d926a9',
 					accent: '#37cdbe',
 					neutral: '#3d4451',
-					'base-100': '#ffffff',
+					'base-100': '#f1ede7',
+					'base-200': '#ffffff',
 				},
 				darkMode: {
-					primary: '#641ae6',
+					primary: '#29a587',
 					secondary: '#d926a9',
 					accent: '#37cdbe',
 					neutral: '#3d4451',
-					'base-100': '#1d232a',
+					'base-100': '#252931',
+					'base-200': '#1e2229',
 				},
 			},
 		],
