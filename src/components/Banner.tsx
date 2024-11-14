@@ -35,7 +35,7 @@ const Banner = () => {
 							I am a <span className="satisfy-regular ml-1">Web Developer</span>
 						</p>
 						<div className="absolute bottom-0 md:static flex flex-col items-center md:items-start gap-6 ">
-							<p>Passionate about Web technolgies and love to create dynamic and functional custom websites that solves real life problems and make people's life easier</p>
+							<p>Passionate about technolgies and love to create web applications that solves real life problems and make people's life easier</p>
 							<div className="my- flex items-center gap-6">
 								<a target="_blank" href="https://github.com/ssani7" rel="noreferrer">
 									<FontAwesomeIcon className="h-7 my-3 xl:hover:text-primary xl:hover:scale-125 transition-all" icon={faGithub} />

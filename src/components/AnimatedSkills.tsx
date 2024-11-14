@@ -22,7 +22,7 @@ const AnimatedSkills = () => {
 							className="absolute left-0 top-0 bottom-0 h-full w-full flex flex-col justify-center items-center z-[13] size-80">
 							<motion.div className="card shadow-md bg-base-200 xl:h-60 w-4/5">
 								<div className="card-body">
-									<h2 className="card-title satisfy-regular">My Professional Skills</h2>
+									<h2 className="card-title">Tech Stack</h2>
 									<h2 className="leading-relaxed mt-3">
 										Throughout my web development journey, I have walked through and learned many technologies. These are some of my most used programming languages, technolgies and tools
 									</h2>

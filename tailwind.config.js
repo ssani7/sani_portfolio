@@ -13,7 +13,7 @@ export default {
 					accent: '#37cdbe',
 					neutral: '#3d4451',
 					'base-100': '#f1ede7',
-					'base-200': '#ffffff',
+					'base-200': '#fffdf5',
 				},
 				darkMode: {
 					primary: '#29a587',
