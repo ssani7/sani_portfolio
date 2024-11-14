@@ -37,9 +37,9 @@ const Contact = () => {
 		};
 
 		try {
-			// const emailRes = await emailjs.send('google', 'template_xap02hr', template, 'Gk24mox0snUD7ToWx');
-			// if (emailRes.status === 200) toast.success('Sent email. You will get a response very soon');
-			// else toast.error(`${emailRes.status} Something went wrong.`);
+			const emailRes = await emailjs.send('google', 'template_xap02hr', template, 'Gk24mox0snUD7ToWx');
+			if (emailRes.status === 200) toast.success('Sent email. You will get a response very soon');
+			else toast.error(`${emailRes.status} Something went wrong.`);
 		} catch (error) {
 			toast.error(`${'Sorry. Could not set email. Please try again later'}`);
 		} finally {
