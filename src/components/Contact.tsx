@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { FieldValues, useForm } from 'react-hook-form';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import { useScrollContext } from '../ScrollContext';
 
 const Contact = () => {
 	const {
@@ -13,6 +14,8 @@ const Contact = () => {
 		handleSubmit,
 		formState: { errors },
 	} = useForm();
+
+	const contactRef = useScrollContext();
 
 	const [loading, setLoading] = useState(false);
 
@@ -34,13 +37,13 @@ const Contact = () => {
 		};
 
 		try {
-			const emailRes = await emailjs.send('google', 'template_xap02hr', template, 'Gk24mox0snUD7ToWx');
-			if (emailRes.status === 200) toast.success('Sent email. You will get a response very soon');
-			else toast.error(`${emailRes.status} Something went wrong.`);
+			// const emailRes = await emailjs.send('google', 'template_xap02hr', template, 'Gk24mox0snUD7ToWx');
+			// if (emailRes.status === 200) toast.success('Sent email. You will get a response very soon');
+			// else toast.error(`${emailRes.status} Something went wrong.`);
 		} catch (error) {
 			toast.error(`${'Sorry. Could not set email. Please try again later'}`);
 		} finally {
-			setLoading(false);
+			// setLoading(false);
 		}
 	};
 
@@ -68,8 +71,8 @@ const Contact = () => {
 	];
 
 	return (
-		<div className="snap-center">
-			<h2 className="card-title text-3xl lg:text-4xl font-bold justify-center mb-4 mt-16">Send Me an Email</h2>
+		<div ref={contactRef} className="pt-20">
+			<h2 className="card-title text-3xl lg:text-4xl font-bold justify-center mb-4">Send Me an Email</h2>
 			<div className="w-full flex flex-col-reverse xl:flex-row justify-center mb-36">
 				<div className="my-5 flex flex-col justify-evenly gap-4 px-8">
 					{socials.map((social, i) => (
@@ -114,7 +117,10 @@ const Contact = () => {
 							</div>
 
 							{loading ? (
-								<span className="btn loading w-full mt-4 normal-case cursor-pointer"> Sending</span>
+								<button className="btn btn-primary mt-4 normal-case cursor-pointer">
+									<span className="loading loading-spinner"></span>
+									Sending Email
+								</button>
 							) : (
 								<input className="btn btn-primary w-full mt-4 normal-case" type="submit" value="Send" />
 							)}

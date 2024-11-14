@@ -1,15 +1,15 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
-const Navbar = ({ reference, click, nightMode, setNightMode }: any) => {
+const Navbar = ({ click, nightMode, setNightMode }: any) => {
 	const [dropdown, setDropdown] = useState(false);
 	const [changeBg, setChangeBg] = useState(false);
 
 	const navItems = (
 		<li onClick={() => setDropdown(false)}>
-			<span className="lg:link lg:link-hover lg:text-lg cursor-pointer" onClick={click}>
+			<Link className="lg:link lg:link-hover lg:text-lg cursor-pointer" onClick={click} to="/contact">
 				Contact Me
-			</span>
+			</Link>
 		</li>
 	);
 
@@ -36,7 +36,7 @@ const Navbar = ({ reference, click, nightMode, setNightMode }: any) => {
 	window.addEventListener('scroll', handleChangeBg);
 
 	return (
-		<div ref={reference} className={`navbar min-h-0 p-0 flex-col items-start lg:flex-row lg:items-center z-50 fixed text-content top-0`}>
+		<div className={`navbar min-h-0 p-0 flex-col items-start lg:flex-row lg:items-center z-50 fixed text-content top-0`}>
 			<div className={`navbar-start w-full h-full p-2 lg:px-5 lg:py-4 z-50 relative flex justify-between ${dropdown || changeBg ? 'navBg active' : 'navBg text-base-content'}`}>
 				<div className="flex items-center">
 					<div>

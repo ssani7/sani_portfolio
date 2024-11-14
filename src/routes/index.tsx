@@ -15,6 +15,10 @@ export const router = createBrowserRouter([
 				//   loader: teamLoader,
 			},
 			{
+				path: 'contact',
+				element: <Home />,
+			},
+			{
 				path: 'projectDetails/:id',
 				element: <ProjectDetails />,
 				//   loader: teamLoader,
