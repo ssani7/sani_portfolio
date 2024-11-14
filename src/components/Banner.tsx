@@ -2,7 +2,7 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
-import saniPic from '/sani bgless.png';
+import saniPic from '/sani_2.png';
 
 const Banner = () => {
 	return (
