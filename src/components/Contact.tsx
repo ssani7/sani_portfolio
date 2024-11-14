@@ -43,7 +43,7 @@ const Contact = () => {
 		} catch (error) {
 			toast.error(`${'Sorry. Could not set email. Please try again later'}`);
 		} finally {
-			// setLoading(false);
+			setLoading(false);
 		}
 	};
 
