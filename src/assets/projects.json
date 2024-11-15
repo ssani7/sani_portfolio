@@ -1,6 +1,58 @@
 [
 	{
 		"id": 0,
+		"title": "Nexgami Academy",
+		"features": [
+			{
+				"name": "Learn through free and paid courses",
+				"info": "Nexgami academy provides beginener frienly course for learning about web3 and blockchain technologies",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1731665082/potfolio/Projects/nexgami%20academy/Screenshot_2024-11-15_154716_ewaw3l.png",
+				"link": ""
+			},
+			{
+				"name": "Earn points through quiz",
+				"info": "After finishing each course, user can crack a quiz to earn points that will bring exciting rewards",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1731664250/potfolio/Projects/nexgami%20academy/Screenshot_2024-11-15_154548_h599s5.png",
+				"link": ""
+			},
+			{
+				"name": "Login using OAuth",
+				"info": "Users having account in Nexgami.com can directly login using OAuth without creating a separate account",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1731664292/potfolio/Projects/nexgami%20academy/Screenshot_2024-11-15_153904_kqzqus.png",
+				"link": ""
+			},
+			{
+				"name": "Upload course content in rich text editor",
+				"info": "This website provides a rich text editor for seamless course content creation and you can paste your doc or word document keeping the format including images",
+				"image": "https://res.cloudinary.com/ssani7/image/upload/v1731665080/potfolio/Projects/nexgami%20academy/Screenshot_2024-11-15_154436_bdygng.png",
+				"link": ""
+			}
+		],
+		"technology": [
+			{
+				"name": "Nextjs",
+				"image": "https://i.ibb.co.com/60cXnbR/nextjs.png"
+			},
+			{
+				"name": "Material UI",
+				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+			},
+			{
+				"name": "Tailwind",
+				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
+			},
+			{
+				"name": "Mongoose",
+				"image": "https://i.ibb.co.com/ccdCvjd/mongoose.png"
+			}
+		],
+		"image": "https://res.cloudinary.com/ssani7/image/upload/v1731665081/potfolio/Projects/nexgami%20academy/Screenshot_2024-11-15_155922_cyihr9.png",
+		"live": "https://nexgami-academy.vercel.app/",
+		"client": "https://github.com/ssani7/nexgami-academy",
+		"server": "https://github.com/ssani7/nexgami-academy"
+	},
+	{
+		"id": 0,
 		"title": "ShoeStocks",
 		"features": [
 			{
@@ -41,7 +93,7 @@
 			}
 		],
 		"image": "https://res.cloudinary.com/ssani7/image/upload/v1709807943/potfolio/Projects/shoestocks/tpoyn2r9xabe5kqzdchx.jpg",
-		"live": "https://assignment-12-cameraverse.web.app/",
+		"live": "https://shoestocks.vercel.app/",
 		"client": "",
 		"server": ""
 	},

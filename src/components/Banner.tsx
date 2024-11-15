@@ -2,7 +2,7 @@ import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-ic
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { motion } from 'framer-motion';
-import saniPic from '/sani_2.png';
+// import saniPic from '/sani_2.png';
 
 const Banner = () => {
 	return (
@@ -79,7 +79,7 @@ const Banner = () => {
 						},
 					}}
 					// src="https://res.cloudinary.com/ssani7/image/upload/v1687032284/Profile%20Photos/photo1687032253_enlysw.jpg"
-					src={saniPic}
+					src="https://res.cloudinary.com/ssani7/image/upload/v1731662658/potfolio/profile/sani-profile_sop2la.png"
 					className="md:w-2/5 xl:max-h-[550px] xl:w-[550px] object-contain "
 					alt=""
 				/>
