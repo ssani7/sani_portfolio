@@ -64,7 +64,9 @@ const Experiences = () => {
 									}}
 									className="px-5 pb-14 col-span-5 flex flex-col gap-2">
 									<p className="text-3xl font-semibold">{r.designation}</p>
-									<p className="font-semibold">{r.company}</p>
+									<a target="_blank" className="link link-hover" href={r.link}>
+										<p className="font-semibold">{r.company}</p>
+									</a>
 									<p className="text-sm">{r.description}</p>
 								</motion.div>
 							</motion.div>
@@ -80,7 +82,9 @@ const Experiences = () => {
 									}}
 									className="px-5 col-span-5 flex flex-col gap-2 text-right">
 									<p className="text-3xl font-semibold">{r.designation}</p>
-									<p className="font-semibold">{r.company}</p>
+									<a target="_blank" className="link link-hover" href={r.link}>
+										<p className="font-semibold">{r.company}</p>
+									</a>
 									<p className="text-sm">{r.description}</p>
 								</motion.div>
 								<div className="flex justify-center col-span-1 pt-3">
