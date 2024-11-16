@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import projects from '../assets/projects.json';
+import techs from '../assets/technologies.json';
 // interface IFeature {
 // 	name: string;
 // 	info: string;
@@ -72,12 +73,15 @@ const Projects = () => {
 								</motion.h1>
 								<p className="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
 								<motion.div variants={item} className="flex flex-wrap gap-2">
-									{project.technology.map((tech, i) => (
-										<div key={i} className="flex items-center gap-1 mb-2">
-											<img className="max-h-5 w-4 object-contain" src={tech.image} alt="" srcSet="" />
-											<span className="text-sm">{tech.name}</span>
-										</div>
-									))}
+									{techs.map((tech, i) => {
+										if (project.technology.includes(tech.name))
+											return (
+												<div key={i} className="flex items-center gap-1 mb-2">
+													<img className="max-h-5 w-4 object-contain" src={tech.image} alt="" srcSet="" />
+													<span className="text-sm">{tech.name}</span>
+												</div>
+											);
+									})}
 								</motion.div>
 								<motion.div variants={item} className="flex items-center flex-wrap gap-2 mt-6">
 									<button onClick={() => navigate(`/projectDetails/${i}`)} className="btn btn-sm lg:btn-md btn-primary normal-case text-white">

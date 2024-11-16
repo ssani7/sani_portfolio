@@ -6,15 +6,46 @@ import { skills } from '../utils/skills';
 const AnimatedSkills = () => {
 	const [focus, setFocus] = useState<any>(null);
 
+	const fromRight = {
+		hidden: { opacity: 1, x: '100%' },
+		show: {
+			opacity: 1,
+			x: 0,
+			transition: {
+				duration: 0.75,
+			},
+		},
+	};
+
+	const fromLeft = {
+		hidden: { opacity: 1, x: '-100%' },
+		show: {
+			opacity: 1,
+			x: 0,
+			transition: {
+				duration: 0.75,
+			},
+		},
+	};
+
 	return (
 		<div>
 			<div className="pb-32 w-full overflow-x-hidden snap-center min-h-screen relative hidden md:block">
 				<h1 className="mt-8 mb-28 text-center font-bold text-3xl">Skills</h1>
 
+				{/* backdrop when focused */}
 				{<motion.div initial={{ opacity: 0 }} animate={focus && { opacity: 0.35 }} transition={{ duration: 0.4 }} className="bg-black absolute inset-0 z-[10] min-h-[100vh]"></motion.div>}
 
 				<div className="relative flex w-full">
-					<div className="w-1/3 xl:w-1/2 relative text-base-content">
+					<motion.div
+						variants={fromLeft}
+						initial="hidden"
+						whileInView="show"
+						viewport={{
+							once: true,
+							amount: 0,
+						}}
+						className="w-1/3 xl:w-1/2 relative text-base-content">
 						<motion.div
 							initial={{ x: 0 }}
 							animate={focus && { x: '-100%' }}
@@ -42,9 +73,17 @@ const AnimatedSkills = () => {
 								</div>
 							))}
 						</div>
-					</div>
+					</motion.div>
 
-					<div className="w-2/3 xl:w-1/2 relative">
+					<motion.div
+						variants={fromRight}
+						initial="hidden"
+						whileInView="show"
+						viewport={{
+							once: true,
+							// amount: 'all',
+						}}
+						className="w-2/3 xl:w-1/2 relative">
 						<div className="" style={{ height: '500px', width: '500px' }}>
 							<div className="main">
 								{skills.map((orbit, orbitIndex) => (
@@ -69,7 +108,7 @@ const AnimatedSkills = () => {
 								))}
 							</div>
 						</div>
-					</div>
+					</motion.div>
 				</div>
 			</div>
 			<div></div>

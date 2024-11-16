@@ -28,24 +28,7 @@
 				"link": ""
 			}
 		],
-		"technology": [
-			{
-				"name": "Nextjs",
-				"image": "https://i.ibb.co.com/60cXnbR/nextjs.png"
-			},
-			{
-				"name": "Material UI",
-				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
-			},
-			{
-				"name": "Tailwind",
-				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
-			},
-			{
-				"name": "Mongoose",
-				"image": "https://i.ibb.co.com/ccdCvjd/mongoose.png"
-			}
-		],
+		"technology": ["Nextjs", "Material UI", "Mongoose"],
 		"image": "https://res.cloudinary.com/ssani7/image/upload/v1731665081/potfolio/Projects/nexgami%20academy/Screenshot_2024-11-15_155922_cyihr9.png",
 		"live": "https://nexgami-academy.vercel.app/",
 		"client": "https://github.com/ssani7/nexgami-academy",
@@ -74,24 +57,7 @@
 				"link": ""
 			}
 		],
-		"technology": [
-			{
-				"name": "ReactJs",
-				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
-			},
-			{
-				"name": "Tailwind",
-				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
-			},
-			{
-				"name": "Material UI",
-				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
-			},
-			{
-				"name": "MongoDB",
-				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
-			}
-		],
+		"technology": ["Reactjs", "Redux", "MongoDB", "Material UI"],
 		"image": "https://res.cloudinary.com/ssani7/image/upload/v1709807943/potfolio/Projects/shoestocks/tpoyn2r9xabe5kqzdchx.jpg",
 		"live": "https://shoestocks.vercel.app/",
 		"client": "",
@@ -132,28 +98,7 @@
 				"link": "https://assignment-12-cameraverse.web.app/home"
 			}
 		],
-		"technology": [
-			{
-				"name": "ReactJs",
-				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
-			},
-			{
-				"name": "Tailwind",
-				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
-			},
-			{
-				"name": "Firebase",
-				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
-			},
-			{
-				"name": "MongoDB",
-				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
-			},
-			{
-				"name": "Google Drive Storage",
-				"image": "https://res.cloudinary.com/ssani7/image/upload/v1687091247/potfolio/Google_Drive_logo_iudbsi.png"
-			}
-		],
+		"technology": [],
 		"image": "https://res.cloudinary.com/ssani7/image/upload/v1687107160/potfolio/Projects/section%20n/Picsart_23-06-18_19-21-08-881_zcrjko.jpg",
 		"live": "https://section-n-diu.web.app/",
 		"client": "https://github.com/ssani7/section-n",
@@ -182,16 +127,7 @@
 				"link": "https://assignment-12-cameraverse.web.app/home"
 			}
 		],
-		"technology": [
-			{
-				"name": "ReactJs",
-				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
-			},
-			{
-				"name": "Tailwind",
-				"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
-			}
-		],
+		"technology": [],
 		"image": "https://i.ibb.co/dL5fT8n/review.png",
 		"live": "https://assignment9bysani.netlify.app/home",
 		"client": "",
@@ -220,24 +156,7 @@
 				"link": "https://assignment-12-cameraverse.web.app/home"
 			}
 		],
-		"technology": [
-			{
-				"name": "HTML",
-				"image": "https://i.ibb.co/6WwLYX3/html.png"
-			},
-			{
-				"name": "CSS",
-				"image": "https://i.ibb.co/X2Vm2nr/css.png"
-			},
-			{
-				"name": "JavaScript",
-				"image": "https://i.ibb.co/549BGV8/javascript.png"
-			},
-			{
-				"name": "Bootstrap",
-				"image": "https://i.ibb.co/t3kdbwD/bootstrap-logo.png"
-			}
-		],
+		"technology": [],
 		"image": "https://i.ibb.co/Wx5yP8y/wedding-1-1.png",
 		"live": "https://zealous-nobel-72493e.netlify.app/",
 		"client": "",
@@ -267,24 +186,7 @@
 				"link": "https://assignment-12-cameraverse.web.app/home"
 			}
 		],
-		"technology": [
-			{
-				"name": "ReactJs",
-				"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
-			},
-			{
-				"name": "Bootstrap",
-				"image": "https://i.ibb.co/t3kdbwD/bootstrap-logo.png"
-			},
-			{
-				"name": "Firebase",
-				"image": "https://i.ibb.co/VDr7kZy/firebase.png"
-			},
-			{
-				"name": "MongoDB",
-				"image": "https://i.ibb.co/3BhpCZF/mongo.png"
-			}
-		],
+		"technology": [],
 		"image": "https://i.ibb.co/SdHLMh4/ass-1.png",
 		"live": "https://assignment11-gpu-incentory.web.app/",
 		"client": "",

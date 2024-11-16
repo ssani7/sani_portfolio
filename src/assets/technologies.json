@@ -1,0 +1,51 @@
+[
+	{
+		"name": "HTML",
+		"image": "https://i.ibb.co/6WwLYX3/html.png"
+	},
+	{
+		"name": "CSS",
+		"image": "https://i.ibb.co/X2Vm2nr/css.png"
+	},
+	{
+		"name": "JavaScript",
+		"image": "https://i.ibb.co/549BGV8/javascript.png"
+	},
+	{
+		"name": "Bootstrap",
+		"image": "https://i.ibb.co/t3kdbwD/bootstrap-logo.png"
+	},
+	{
+		"name": "ReactJs",
+		"image": "https://i.ibb.co/Fnvm1JJ/React-icon-svg.png"
+	},
+	{
+		"name": "Nextjs",
+		"image": "https://i.ibb.co.com/60cXnbR/nextjs.png"
+	},
+	{
+		"name": "Material UI",
+		"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+	},
+	{
+		"name": "Tailwind",
+		"image": "https://i.ibb.co/HxXpcpW/Tailwind-CSS-Logo-svg.png"
+	},
+
+	{
+		"name": "MongoDB",
+		"image": "https://i.ibb.co/3BhpCZF/mongo.png"
+	},
+	{
+		"name": "Mongoose",
+		"image": "https://i.ibb.co.com/ccdCvjd/mongoose.png"
+	},
+	{
+		"name": "Firebase",
+		"image": "https://i.ibb.co/VDr7kZy/firebase.png"
+	},
+	{
+		"name": "Google Cloud Service",
+		"image": "https://res.cloudinary.com/ssani7/image/upload/v1731564569/potfolio/lqamnf0xidji4fxsymie.png"
+	}
+]
