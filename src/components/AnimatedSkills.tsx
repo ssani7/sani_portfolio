@@ -37,15 +37,7 @@ const AnimatedSkills = () => {
 				{<motion.div initial={{ opacity: 0 }} animate={focus && { opacity: 0.35 }} transition={{ duration: 0.4 }} className="bg-black absolute inset-0 z-[10] min-h-[100vh]"></motion.div>}
 
 				<div className="relative flex w-full">
-					<motion.div
-						variants={fromLeft}
-						initial="hidden"
-						whileInView="show"
-						viewport={{
-							once: true,
-							amount: 0,
-						}}
-						className="w-1/3 xl:w-1/2 relative text-base-content">
+					<div className="w-1/3 xl:w-1/2 relative text-base-content">
 						<motion.div
 							initial={{ x: 0 }}
 							animate={focus && { x: '-100%' }}
@@ -73,17 +65,9 @@ const AnimatedSkills = () => {
 								</div>
 							))}
 						</div>
-					</motion.div>
+					</div>
 
-					<motion.div
-						variants={fromRight}
-						initial="hidden"
-						whileInView="show"
-						viewport={{
-							once: true,
-							// amount: 'all',
-						}}
-						className="w-2/3 xl:w-1/2 relative">
+					<div className="w-2/3 xl:w-1/2 relative">
 						<div className="" style={{ height: '500px', width: '500px' }}>
 							<div className="main">
 								{skills.map((orbit, orbitIndex) => (
@@ -108,7 +92,7 @@ const AnimatedSkills = () => {
 								))}
 							</div>
 						</div>
-					</motion.div>
+					</div>
 				</div>
 			</div>
 			<div></div>
